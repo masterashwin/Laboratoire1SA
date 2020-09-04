@@ -62,6 +62,7 @@
         android:layout_marginLeft="62dp"
         android:layout_marginTop="488dp"
         android:text="Valider mot de passe"
+        android:onClick="onClick_btn_validerMotPasse"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
