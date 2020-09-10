@@ -14,7 +14,7 @@
         android:layout_marginLeft="59dp"
         android:layout_marginTop="122dp"
         android:ems="10"
-        android:hint="Votre courriel"
+        android:hint="@string/et_courriel"
         android:inputType="textEmailAddress"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,7 +27,7 @@
         android:layout_marginLeft="59dp"
         android:layout_marginTop="229dp"
         android:ems="10"
-        android:hint="Votre mot de passe"
+        android:hint="@string/et_motPasse"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -39,7 +39,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="332dp"
-        android:text="Afficher votre mot de passe"
+        android:text="@string/chk_affichageMotPasse"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,7 +51,7 @@
         android:layout_marginLeft="64dp"
         android:layout_marginTop="408dp"
         android:onClick="onClick_btn_validerMotPasse"
-        android:text="Valider mot de passe"
+        android:text="@string/btn_validerMotPasse"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -63,7 +63,7 @@
         android:layout_marginLeft="64dp"
         android:layout_marginTop="484dp"
         android:text="Le mot de passe n’est pas valide"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@color/rouge"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

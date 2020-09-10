@@ -59,11 +59,13 @@ public class MainActivity extends AppCompatActivity {
     public void onClick_btn_validerMotPasse(View view) {
         String motPasse = et_motPasse.getText().toString().trim();
         if(SPECIFICATION_MOT_PASSE.matcher(motPasse).matches()){
-            tv_messageValidation.setText("Le mot de passe est valide");
-            tv_messageValidation.setTextColor(Color.rgb(0,255,0));
+            tv_messageValidation.setText(getResources().getText(R.string.motPasse1));
+            tv_messageValidation.setTextColor(getResources().getColor(R.color.vert));
+            //tv_messageValidation.setTextColor(Color.rgb(0,255,0));
         }else{
-            tv_messageValidation.setText("Le mot de passe n'est pas valide");
-            tv_messageValidation.setTextColor(Color.rgb(255,0,0));
+            tv_messageValidation.setText(getResources().getText(R.string.motPasse2));
+            tv_messageValidation.setTextColor(getResources().getColor(R.color.rouge));
+            //tv_messageValidation.setTextColor(Color.rgb(255,0,0));
 
         }
 

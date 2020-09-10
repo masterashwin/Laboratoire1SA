@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Laboratoire1SA</string>
+    <string name="et_courriel">Votre courriel</string>
+    <string name="et_motPasse">Votre mot de passe</string>
+    <string name="chk_affichageMotPasse">Afficher votre mot de passe</string>
+    <string name="btn_validerMotPasse">Valider mot de passe</string>
+    <string name="motPasse1">Le mot de passe est valide</string>
+    <string name="motPasse2">Le mot passe n\'est pas invalide</string>
+
 </resources>

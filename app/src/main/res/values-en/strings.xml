@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Laboratoire1SA</string>
+    <string name="et_courriel">Your email</string>
+    <string name="et_motPasse">Your password</string>
+    <string name="chk_affichageMotPasse">Show password</string>
+    <string name="btn_validerMotPasse">Validate your password</string>
+    <string name="motPasse1">The password is good</string>
+    <string name="motPasse2">The password isn\'t good</string>
+
+</resources>
