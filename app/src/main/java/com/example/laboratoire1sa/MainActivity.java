@@ -22,14 +22,10 @@ public class MainActivity extends AppCompatActivity {
                     "(?=.*[0-9])" +
                     "(?=.*[a-z])" +
                     "(?=.*[A-Z])" +
-                    "(?=.*[@#$%^&+=])" +
+                    "(?=.*[@#$%^&+=(){}_<>!?*:;./,'|~\\]\\[\\-])" +
                     ".{10,}" +
                     "$");
 
-
-    //@ # $ % & ( ) [ ] {
-   // } _ = < > + - ! ? *
-       //    / | : ; . , ‘ " ~ ^
 
     EditText et_motPasse;
     CheckBox chk_affichageMotPasse;
@@ -61,12 +57,9 @@ public class MainActivity extends AppCompatActivity {
         if(SPECIFICATION_MOT_PASSE.matcher(motPasse).matches()){
             tv_messageValidation.setText(getResources().getText(R.string.motPasse1));
             tv_messageValidation.setTextColor(getResources().getColor(R.color.vert));
-            //tv_messageValidation.setTextColor(Color.rgb(0,255,0));
         }else{
             tv_messageValidation.setText(getResources().getText(R.string.motPasse2));
             tv_messageValidation.setTextColor(getResources().getColor(R.color.rouge));
-            //tv_messageValidation.setTextColor(Color.rgb(255,0,0));
-
         }
 
 
