@@ -16,7 +16,7 @@ import android.widget.TextView;
 import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
-//test
+
     private static final Pattern SPECIFICATION_MOT_PASSE =
             Pattern.compile("^" +
                     "(?=.*[0-9])" +
